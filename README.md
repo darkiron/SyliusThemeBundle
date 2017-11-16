@@ -30,10 +30,10 @@ Add in `composer.json` :
 
 update autoload :  `composer dump-autoload`
 
-Follow Twig extends view like for Symfony :
---------------------------------------------
+Follow Twig extends view for Symfony :
+--------------------------------------
 
 [Sylius doc : Customizing Templates](http://docs.sylius.org/en/latest/customization/template.html)
-
+[Symfony doc : Templating](https://symfony.com/doc/current/templating.html#template-inheritance-and-layouts)
 
 Enjoys, 
