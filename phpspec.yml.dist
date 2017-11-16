@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: Netime\ThemeBundle
-        psr4_prefix: Netime\ThemeBundle
+        namespace: Darkiron\ThemeBundle
+        psr4_prefix: Darkiron\ThemeBundle
         src_path: .
