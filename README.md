@@ -5,9 +5,10 @@ Easy way to custom Sylius template
 Install :
 =========
 
-Clone file in src/
+Clone file in `src/`
 
 Register the bundle in `AppKernel.php` :
+
 	new \Darkiron\ThemeBundle\DarkironThemeBundle(),
 
 Declare Theme in `config.yml` :
