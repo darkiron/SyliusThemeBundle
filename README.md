@@ -11,18 +11,21 @@ Register the bundle in `AppKernel.php` :
 	new \Darkiron\ThemeBundle\NetimeThemeBundle(),
 
 Declare Theme in `config.yml` :
+
 	sylius_theme:
-    sources:
-        filesystem:
-            directories:
-                - "%kernel.project_dir%/src/Darkiron/ThemeBundle"
+    		sources:
+        		filesystem:
+            			directories:
+                		- "%kernel.project_dir%/src/Darkiron/ThemeBundle"
 
 Add in `composer.json` :
+
 	"autoload": {
-        "psr-4": {
+           "psr-4": {
             ...
             "Darkiron\\ThemeBundle\\": "src/Darkiron/ThemeBundle/"
-        },
+            }
+	},
 
 update autoload :  `composer dump-autoload`
 
