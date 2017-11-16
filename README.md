@@ -8,7 +8,7 @@ Install :
 Clone file in src/
 
 Register the bundle in `AppKernel.php` :
-	new \Darkiron\ThemeBundle\NetimeThemeBundle(),
+	new \Darkiron\ThemeBundle\DarkironThemeBundle(),
 
 Declare Theme in `config.yml` :
 
