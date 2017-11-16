@@ -13,10 +13,10 @@ Register the bundle in `AppKernel.php` :
 Declare Theme in `config.yml` :
 
 	sylius_theme:
-    		sources:
-        		filesystem:
-            			directories:
-                		- "%kernel.project_dir%/src/Darkiron/ThemeBundle"
+    	    sources:
+                filesystem:
+                    directories:
+                        - "%kernel.project_dir%/src/Darkiron/ThemeBundle"
 
 Add in `composer.json` :
 
