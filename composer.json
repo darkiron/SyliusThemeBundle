@@ -1,14 +1,14 @@
 {
-    "name": "netime/boostrap",
+    "name": "darkiron/boostrap",
     "authors": [
         {
-            "name": "Vincent Scharpen",
-            "email": "vincent@netime.fr"
+            "name": "",
+            "email": ""
         }
     ],
     "extra": {
         "sylius-theme": {
-            "title": "Netime Boostrap theme"
+            "title": "Boostrap theme"
         }
     }
 }
