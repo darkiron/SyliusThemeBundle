@@ -1,0 +1,3 @@
+darkiron_theme_bundle_homepage:
+  path: /admin_theme
+  defaults: { _controller: DarkironThemeBundle:Theme:index }
